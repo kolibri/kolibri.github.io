@@ -1,3 +1,7 @@
+---
+layout: home
+
+---
 # ko.libri
 
 ## Who 
