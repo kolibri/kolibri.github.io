@@ -1,8 +1,7 @@
 ---
 layout: home
-
+title: ko.libri
 ---
-# ko.libri
 
 ## Who 
 
