@@ -1,8 +1,3 @@
----
-layout: post
-title:  "Hello World"
----
-
 # Need a problem?
 
 
