@@ -1,0 +1,32 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Monaco;
+}
+
+
+nav a {
+	text-decoration: none;
+
+}
+a {
+	color: #eeeeee;
+}
+
+a:hover {
+	color: #eeeeee;
+}
+
+a:active {
+	color: #eeeeee;
+}
+
+
+nav {
+	float: left;
+	width: 20%;
+}
+main {
+	margin-left: 20%;
+}
+

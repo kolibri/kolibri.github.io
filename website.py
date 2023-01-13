@@ -11,7 +11,7 @@ out_path = './out'
 def get_html_for_file(path:str) -> str:
     with open(path, "r", encoding="utf-8") as input_file:
         text = input_file.read()
-    return markdown.markdown(text)
+    return markdown.markdown(text, extensions=['extra'])
 
 
 def write_html_file(content: str, path: str):
