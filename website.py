@@ -40,9 +40,14 @@ def create_menu(in_dir):
             html += create_menu(full_path)
         if os.path.isfile(full_path):
             title = file.replace('.md', '')
-            href_base = os.path.join(*os.path.split(in_dir)[1:])
+            split = os.path.split(in_dir)
+            if '.' == split[0]:
+                split = ['.']
+            else:
+                split= split[1:]
+            href_base = os.path.join(*split)
             # print(rel_path, split)
-            html += '<a href="' + os.path.join(href_base, title) + '">' + title + '</a>'
+            html += '<a href="/' + os.path.join(href_base, title) + '">' + title + '</a>'
         html += '</li>'
 
     html += '</ul>'
